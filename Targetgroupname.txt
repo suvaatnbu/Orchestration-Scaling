@@ -1,0 +1,4 @@
+traget name:backend-target-group22.
+port:3000(Docker port my app running)
+Load balancer name:backend-alb
+arn:aws:elasticloadbalancing:ap-south-1:975050024946:targetgroup/backend-target-group22/227ed19a483c7c19

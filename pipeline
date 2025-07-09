@@ -1,0 +1,62 @@
+    agent any environment { DOCKER_IMAGE = 'your-dockerhub-username/mern-microservice'
+        DOCKER_CREDENTIALS_ID = 'dockerhub-credentials-id'   // Set this in Jenkins Credentials
+        GIT_REPO_URL = 'https://github.com/YourUsername/YourMERNRepo.git'
+        BRANCH_NAME = 'main'
+    }
+
+    stages {
+
+        stage('Checkout Code') {
+            steps {
+                git branch: "${BRANCH_NAME}", url: "${GIT_REPO_URL}"
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                script {
+                    sh 'docker build -t $DOCKER_IMAGE:$BUILD_NUMBER .'
+                }
+            }
+        }
+
+        stage('Docker Login') {
+            steps {
+                withCredentials([usernamePassword(credentialsId: "${DOCKER_CREDENTIALS_ID}", usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+                    sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
+                }
+            }
+        }
+
+        stage('Push Docker Image') {
+            steps {
+                script {
+                    sh 'docker push $DOCKER_IMAGE:$BUILD_NUMBER'
+                }
+            }
+        }
+
+        stage('Optional: Deploy to Kubernetes') {
+            when {
+                expression { return params.DEPLOY_TO_K8S == true }
+            }
+            steps {
+                script {
+                    sh '''
+                    kubectl set image deployment/your-deployment-name your-container-name=$DOCKER_IMAGE:$BUILD_NUMBER
+                    '''
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline executed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed.'
+        }
+    }
+}
+
