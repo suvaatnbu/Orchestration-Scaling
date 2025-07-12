@@ -1,3 +1,17 @@
+Orchestration-Scaling/
+├── README.md
+├── docs/
+│   ├── architecture-diagram.png
+│   ├── deployment-guide.md
+│   ├── screenshots/
+│   │   ├── jenkins-setup.png
+│   │   ├── eks-cluster.png
+│   │   └── helm-install.png
+│   └── lambda-backup.md
+├── helm/
+├── eks-cluster.yaml
+├── jenkins-boto3-scripts/
+└── Jenkinsfile
 
 # Jenkins + Boto3 Infrastructure Automation
 
