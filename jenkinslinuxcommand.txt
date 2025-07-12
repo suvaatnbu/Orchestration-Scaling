@@ -1,0 +1,1000 @@
+   52  sudo mount -a
+   53  ls /mnt/d
+   54  cd /mnt/d
+   55  sudo nano /etc/fstab
+   56  sudo mount -a
+   57  sudo nano /etc/fstab
+   58  sudo mkdir -p /mnt/data
+   59  sudo mount -a
+   60  sudo nano /etc/fstab
+   61  sudo mount -a
+   62  sudo nano /etc/fstab
+   63  sudo mount -a
+   64  ls /mnt/d
+   65  cd /mnt/d
+   66  cd D:\TCS\ASSIGNMENTKUBTERNESS\learner-report-k8s-helm-jenkins\k8s
+   67  cd TCS
+   68  cd ASSIGNMENTKUBTERNESS
+   69  cd learner-report-k8s-helm-jenkins
+   70  cd k8s
+   71  groups
+   72  docker run hello-world
+   73  minikube start --driver=docker
+   74  kubectl apply -f jenkins-deployment.yaml
+   75  kubectl apply -f jenkins-service.yaml
+   76  nano jenkins-service.yaml
+   77  kubectl apply -f jenkins-service.yaml
+   78  kubectl get svc
+   79  jenkins-service   NodePort   10.x.x.x   <none>   8080:30000/TCP   ...
+   80  kubectl exec --namespace default -it deploy/jenkins -- cat /var/jenkins_home/secrets/initialAdminPassword
+   81  minikube ip
+   82  kubectl get pods
+   83  kubectl get svc
+   84  kubectl describe svc jenkins-service
+   85  minikube tunnel
+   86  kubectl port-forward svc/jenkins-service 8080:8080
+   87  cd learnerReportCS_backend
+   88  nano Jenkinsfile
+   89  git add Jenkinsfile
+   90  git commit -m "Add Jenkinsfile for CI/CD pipeline"
+   91  git push origin main
+   92  cd ~  # or any working directory
+   93  git clone https://github.com/UnpredictablePrashant/learnerReportCS_backend.git
+   94  cd learnerReportCS_backend
+   95  nano Jenkinsfile
+   96  git add Jenkinsfile
+   97  git commit -m "Add Jenkinsfile for CI/CD pipeline"
+   98  git push origin main
+   99  git clone https://github.com/suvaatnbu/learnerReportCS_backend.git
+  100  cd ~  # or any directory where you want to clone
+  101  git clone https://github.com/suvaatnbu/learnerReportCS_backend.git
+  102  cd learnerReportCS_backend
+  103  git clone https://github.com/suvaatnbu/learnerReportCS_backend.git
+  104  git add Jenkinsfile
+  105  git commit -m "Add Jenkinsfile"
+  106  git push origin main
+  107  exit
+  108  ls /mnt/d
+  109  cs /mnt/d
+  110  cd /mnt/d
+  111  cd D:\TCS\ASSIGNMENTKUBTERNESS
+  112  cd ASSIGNMENTKUBTERNESS
+  113  cd learner-report-k8s-helm-jenkins
+  114  cd k8s
+  115  cd TCS
+  116  cd ASSIGNMENTKUBTERNESS
+  117  cd k8s
+  118  cd learner-report-k8s-helm-jenkins
+  119  cd k8s
+  120  cd learnerReportCS-deployment
+  121  # Initialize Git
+  122  git init
+  123  git remote add origin https://github.com/YourUsername/learnerReportCS-deployment.git
+  124  # Add and commit files
+  125  git add .
+  126  git commit -m "Initial commit of Kubernetes, Helm, Jenkins deployment files"
+  127  # Push to GitHub
+  128  git branch -M main
+  129  git push -u origin main
+  130  cd ..
+  131  cd learnerReportCS-deployment
+  132  ls
+  133  cd learnerReportCS-deployment
+  134  # Initialize Git
+  135  git init
+  136  git remote add origin https://github.com/YourUsername/learnerReportCS-deployment.git
+  137  # Add and commit files
+  138  git add .
+  139  git commit -m "Initial commit of Kubernetes, Helm, Jenkins deployment files"
+  140  # Push to GitHub
+  141  git branch -M main
+  142  git push -u origin main
+  143  git init
+  144  git remote add origin https://github.com/YourUsername/learnerReportCS-deployment.git
+  145  git add .
+  146  git commit -m
+  147  git branch -M main
+  148  git push -u origin main
+  149  git remote add origin https://github.com/suvaatnbu/learnerReportCS-deployment.git
+  150  git add .
+  151  git branch -M main
+  152  git push -u origin main
+  153  git init
+  154  git add .
+  155  git commit -m "Initial commit with Kubernetes, Helm, and Jenkins configuration"
+  156  git branch -M main
+  157  git remote add origin https://github.com/UnpredictablePrashant/learnerReportCS-deployment.git
+  158  git push -u origin main
+  159  git remote add origin https://github.com/UnpredictablePrashant/learnerReportCS-deployment.git
+  160  git init
+  161  git add .
+  162  git commit -m "Initial commit with Kubernetes, Helm, and Jenkins configuration"
+  163  git config --global user.email "suvaatnbu@gmail.com"
+  164  git init
+  165  git add .
+  166  git config --global user.email "suvaatnbu@gmail.com"
+  167  git commit -m "Initial commit with Kubernetes, Helm, and Jenkins configuration"
+  168  git config --global user.name "Suvabrata Guharay"
+  169  git config --global user.email "suvaatnbu@gmail.com"
+  170  git commit -m "Initial commit with Kubernetes, Helm, and Jenkins configuration"
+  171  git push -u origin main
+  172  git remote remove origin
+  173  git remote add origin https://github.com/UnpredictablePrashant/learnerReportCS-deployment.git
+  174  git push -u origin main
+  175  https://github.com/UnpredictablePrashant/learnerReportCS-deployment.git
+  176  git remote remove origin       # Only if you added the wrong one before
+  177  git remote add origin https://github.com/UnpredictablePrashant/learnerReportCS-deployment.git
+  178  git push -u origin main
+  179  git config --global credential.helper store
+  180  git remote remove origin
+  181  git remote add origin https://github.com/suvaatnbu/learnerReportCS-deployment.git
+  182  git push -u origin main
+  183  CD ..
+  184  cd ..
+  185  cd learnerReportCS-deployment
+  186  cd k8s
+  187  nano mongo-deployment.yaml
+  188  git clone https://github.com/suvaatnbu/learnerReportCS-deployment.git
+  189  cd learnerReportCS-deployment
+  190  docker info
+  191  kubectl cluster-info
+  192  kubectl get nodes
+  193  kubectl cluster-info
+  194  kubectl get nodes
+  195  exit
+  196  cd "$env:APPDATA\Docker"
+  197  Remove-Item -Recurse -Force "*"
+  198  cd "$env:LOCALAPPDATA\Docker"
+  199  Remove-Item -Recurse -Force "*"
+  200  exit
+  201  git --version
+  202  ls /mnt/d
+  203  cd /mnt/d
+  204  cd TCS
+  205  cd ASSIGNMENTKUBTERNESS
+  206  cd learner-report-k8s-helm-jenkins
+  207  cd learnerReportCS-deployment
+  208  git add .
+  209  git commit -m "your message"
+  210  git push origin main
+  211  git add .
+  212  git commit -m "your message"
+  213  git push origin main
+  214  git add .
+  215  git commit -m "Complete MERN K8s + Helm + Jenkins deployment"
+  216  git remote add origin https://github.com/suvaatnbu/learnerReportCS-deployment.git
+  217  git push -u origin main
+  218  git clone https://github.com/suvaatnbu/learnerReportCS-deployment.git
+  219  exit
+  220  python lambda_function.py
+  221  pip install
+  222  sudo apt install python3-pip
+  223  ls /mnt/d
+  224  cd /mnt/d
+  225  cd TCS
+  226  cd ASSIGNMENT-SERVERLESS
+  227  python lambda_function.py
+  228  python3 lambda_function.py
+  229  mkdir -p /mnt/d/TCS/ASSIGNMENT-SERVERLESS
+  230  cd /mnt/d/TCS/ASSIGNMENT-SERVERLESS
+  231  nano lambda_function.py
+  232  python3 lambda_function.py
+  233  pip install boto3
+  234  python3 -m venv venv
+  235  apt install python3.12-venv
+  236  sudo apt update
+  237  python3 -m venv venv
+  238  source venv/bin/activate
+  239  pip install boto3
+  240  python lambda_function.py
+  241  sudo apt update
+  242  cd /mnt/d/TCS/ASSIGNMENT-SERVERLESS
+  243  python3 -m venv venv
+  244  source venv/bin/activate
+  245  sudo apt update
+  246  # Go to your project directory
+  247  cd /mnt/d/TCS/ASSIGNMENT-SERVERLESS
+  248  # Remove old venv if any
+  249  rm -rf venv
+  250  # Create new virtual environment
+  251  python3 -m venv venv
+  252  # Activate it
+  253  source venv/bin/activate
+  254  sudo apt update
+  255  rm -rf venv
+  256  python3 -m venv venv
+  257  sudo apt install python3-venv -y
+  258  rm -rf venv
+  259  python3 -m venv venv
+  260  source venv/bin/activate
+  261  pip install boto3
+  262  python lambda_function.py
+  263  ec2 = boto3.client('ec2', region_name='us-east-1')  # Replace with your actual region
+  264  ec2 = boto3.client('ec2', region_name='ap-south-1')  
+  265  ec2 = boto3.client('ec2', region_name='ap-south-1'))  
+  266  nano lambda_function.py
+  267  python lambda_function.py
+  268  aws configure
+  269  sudo apt install awscli -y
+  270  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  271  unzip awscliv2.zip
+  272  sudo apt install unzip
+  273  sudo ./aws/install
+  274  rm -rf aws awscliv2.zip  # clean any previous attempt
+  275  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  276  unzip awscliv2.zip
+  277  ls aws/install
+  278  sudo ./aws/install
+  279  aws --version
+  280  aws configure
+  281  zip function.zip lambda_function.py
+  282  sudo apt install zip
+  283  zip function.zip lambda_function.py
+  284  cd /mnt/d/TCS/ASSIGNMENT-SERVERLESS
+  285  git init
+  286  git remote add origin https://github.com/<your-username>/<repo-name>.git
+  287  git add lambda_function.py
+  288  git commit -m "Initial commit: Lambda function for EC2 Auto Start/Stop"
+  289  git push -u origin main
+  290  git init
+  291  git remote add origin https://github.com/suvaatnbu/serverlessaaws.git
+  292  git add lambda_function.py
+  293  git commit -m "Initial commit: Lambda function for EC2 Auto Start/Stop"
+  294  git push -u origin main
+  295  nano .gitignore
+  296  git add .
+  297  git commit -m "Initial commit: Lambda function for EC2 Auto Start/Stop"
+  298  git push -u origin main
+  299  git push -u origin master
+  300  nano README.md
+  301  git push -u origin master
+  302  git init
+  303  git add .
+  304  git commit -m
+  305  git remote add origin https://github.com/suvaatnbu/serverlessaaws
+  306  git push -u origin master
+  307  git init
+  308  git add .
+  309  git commit -m
+  310  git commit -m "Initial commit: Lambda function for EC2 Auto Start/Stop"
+  311  git remote add origin https://github.com/suvaatnbu/serverlessaaws
+  312  git push -u origin master
+  313  nano lambda_s3_cleanup.py
+  314  exit
+  315  ls /mnt/d
+  316  cd /mnt/d
+  317  cd TCS
+  318  cd ASSIGNMENT-SERVERLESS
+  319  aws s3 ls s3://assigns3lambda
+  320  nano ~/.aws/credentials
+  321  aws s3 cp test.txt s3://your-bucket-name/
+  322  aws s3api put-object-retention --bucket your-bucket-name --key test.txt   --retention '{"Mode":"GOVERNANCE","RetainUntilDate":"2024-04-01T00:00:00.000Z"}'
+  323  git init
+  324  git add .
+  325  git commit -m "Initial commit: Lambda EC2 Auto Start/Stop"
+  326  git remote add origin https://github.com/suvaatnbu/aws-ec2-automation.git
+  327  git push -u origin master
+  328  git pull origin master --rebase
+  329  git push -u origin master
+  330  git status
+  331  git init
+  332  git add .
+  333  git commit -m "Initial commit: Lambda EC2 Auto Start/Stop"
+  334  git remote add origin https://github.com/suvaatnbu/aws-ec2-automation.git
+  335  git push -u origin master
+  336  git pull origin master --rebase
+  337  git push -u origin master
+  338  git status
+  339  helm install myapp ./mychart
+  340  cd ..
+  341  cd ASSIGNMENTKUBTERNESS
+  342  sudo snap install helm
+  343  suva
+  344  sudo snap install helm
+  345  helm install mern-app ./helm/mern-chart
+  346  exit
+  347  jenkins --version
+  348  exit
+  349  dpkg -l | grep jenkins
+  350  systemctl status jenkins
+  351  # 1. Update system
+  352  sudo apt update && sudo apt upgrade -y
+  353  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  354  sudo systemctl enable jenkins
+  355  dpkg -l | grep jenkins
+  356  # Install Java if not already
+  357  sudo apt install openjdk-17-jdk -y
+  358  dpkg -l | grep jenkins
+  359  sudo systemctl start jenkins
+  360  sudo apt update
+  361  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  362  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  363  sudo apt update
+  364  ls /lib/systemd/system/jenkins.service
+  365  sudo apt remove --purge jenkins -y
+  366  sudo apt update
+  367  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  368  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  369  sudo apt update
+  370  /lib/systemd/system/jenkins.service
+  371  dpkg -l | grep jenkins
+  372  sudo nano /etc/wsl.conf
+  373  exit
+  374  sudo apt update
+  375  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  376  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  377  sudo apt update
+  378  apt list --upgradable
+  379  sudo systemctl start jenkins
+  380  wsl -l -v
+  381  exit
+  382  sudo nano /etc/wsl.conf
+  383  exit
+  384  ps -p 1 -o comm=
+  385  # Update and install Java
+  386  sudo apt update
+  387  sudo systemctl start jenkins
+  388  sudo apt install jenkins -y
+  389  sudo systemctl start jenkins
+  390  sudo systemctl enable jenkins
+  391  sudo systemctl status jenkins
+  392  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  393  ssh -i your-key.pem ubuntu@<EC2-PUBLIC-IP>
+  394  ssh -i jenkins-server22 ubuntu@13.233.161.119
+  395  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  396  sudo apt install unzip -y
+  397  unzip awscliv2.zip
+  398  ls /mnt/d
+  399  ls -l
+  400  ls /mnt/d
+  401  cd d
+  402  cd TCS
+  403  ls /mnt/d
+  404  cd /mnt/d
+  405  cd TCS
+  406  cd ASSIGNMENT-CONTAINER-ORCHISTATION
+  407  ssh -i jenkins-server22.pem ubuntu@13.233.161.119
+  408  chmod 400 jenkins-server22.pem
+  409  ssh -i jenkins-server22.pem ubuntu@13.233.161.119
+  410  ls -l jenkins-server22.pem
+  411  # should show: -r-------- 1 youruser yourgroup ... jenkins-server22.pem
+  412  chmod 400 jenkins-server22.pem
+  413  ssh -i jenkins-server22.pem ubuntu@13.233.161.119 -vvv
+  414  cat ~/.ssh/authorized_keys
+  415  echo "ssh-rsa AAAA… yourkeycomment" >> ~/.ssh/authorized_keys
+  416  chmod 600 ~/.ssh/authorized_keys
+  417  mkdir -p ~/.ssh
+  418  chmod 700 ~/.ssh
+  419  echo "<your-public-key-ssh-rsa-…>" >> ~/.ssh/authorized_keys
+  420  chmod 600 ~/.ssh/authorized_keys
+  421  exit
+  422  ls /mnt/d
+  423  cd /mnt/d
+  424  cd TCS
+  425  cd ASSIGNMENT-CONTAINER-ORCHISTATION
+  426  ssh -i jenkins-server22.pem ubuntu@13.233.161.119
+  427  sudo mkdir -p /mnt/temp/home/ubuntu/.ssh
+  428  sudo chmod 700 /mnt/temp/home/ubuntu/.ssh
+  429  echo "13.233.161.119" | sudo tee -a /mnt/temp/home/ubuntu/.ssh/authorized_keys
+  430  sudo chmod 600 /mnt/temp/home/ubuntu/.ssh/authorized_keys
+  431  sudo chown -R 1000:1000 /mnt/temp/home/ubuntu/.ssh
+  432  sudo umount /mnt/temp
+  433  ssh -i jenkins-server22.pem ubuntu@13.233.161.119
+  434  # Configure your credentials
+  435  aws configure
+  436  ssh -i jenkins-server22.pem ubuntu@13.233.161.119
+  437  aws ssm start-session --target i-YOUR_INSTANCE_ID
+  438  clear
+  439  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  440  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  441  unzip awscliv2.zip
+  442  sudo ./aws/install
+  443  aws --version
+  444  aws configure
+  445  exit
+  446  ls /mnt/d
+  447  cd /mnt/d
+  448  cd TCS
+  449  cd SKILL-TEST2
+  450  sudo systemctl start docker
+  451  sudo systemctl enable docker
+  452  sudo systemctl start jenkins
+  453  dpkg -l | grep jenkins
+  454  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  455  nano user-deployment.yaml
+  456  nano product-deployment.yaml
+  457  nano order-deployment.yaml
+  458  nano gateway-deployment.yaml
+  459  nano product-deployment.yaml
+  460  apiVersion: apps/v1
+  461  kind: Deployment
+  462  metadata:
+  463  spec:
+  464  ---
+  465  apiVersion: v1
+  466  kind: Service
+  467  metadata:
+  468  clear
+  469  nano product-deployment.yaml
+  470  nano order-deployment.yaml
+  471  nano gateway-deployment.yaml
+  472  nano user-service.yaml
+  473  nano product-service.yaml
+  474  nano order-service.yaml
+  475  nano gateway-service.yaml
+  476  minikube start
+  477  nano user-deployment.yaml
+  478  kubectl apply -f user-deployment.yaml
+  479  kubectl apply -f user-service.yaml
+  480  # Repeat for other services
+  481  kubectl get pods
+  482  kubectl port-forward service/gateway-service 3003:3003
+  483  nano gateway-service.yaml
+  484  kubectl get services
+  485  nano gateway-deployment.yaml
+  486  kubectl apply -f gateway-deployment.yaml
+  487  kubectl get services
+  488  kubectl port-forward service/gateway-service 3003:3003
+  489  kubectl get pods
+  490  kubectl get nodes
+  491  kubectl describe pod $(kubectl get pods -l app=gateway -o name)
+  492  kubectl get pods -l app=gateway
+  493  kubectl describe pod gateway-deployment-78646845f8-k6m55
+  494  your-dockerhub-username/gateway-service:latest
+  495  docker build -t your-dockerhub-username/gateway-service:latest .
+  496  docker build -t suvaatnbu/gateway-service:latest 
+  497  docker build -t suvaatnbu/gateway-service:latest .
+  498  docker buildx install
+  499  docker buildx version
+  500  mkdir -p ~/.docker/cli-plugins
+  501  curl -Lo ~/.docker/cli-plugins/docker-buildx "https://github.com/docker/buildx/releases/latest/download/docker-buildx-linux-amd64"
+  502  chmod +x ~/.docker/cli-plugins/docker-buildx
+  503  docker buildx version
+  504  mkdir -p ~/.docker/cli-plugins
+  505  curl -Lo ~/.docker/cli-plugins/docker-buildx https://github.com/docker/buildx/releases/latest/download/docker-buildx-linux-amd64
+  506  chmod +x ~/.docker/cli-plugins/docker-buildx
+  507  docker buildx version
+  508  curl -L https://github.com/docker/buildx/releases/latest/download/docker-buildx-linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+  509  chmod +x ~/.docker/cli-plugins/docker-buildx
+  510  docker buildx version
+  511  mkdir -p ~/.docker/cli-plugins
+  512  curl -L https://github.com/docker/buildx/releases/latest/download/docker-buildx-linux-amd64      -o ~/.docker/cli-plugins/docker-buildx
+  513  chmod +x ~/.docker/cli-plugins/docker-buildx
+  514  ls -l ~/.docker/cli-plugins/docker-buildx
+  515  mkdir -p ~/.docker/cli-plugins
+  516  wget -O ~/.docker/cli-plugins/docker-buildx https://github.com/docker/buildx/releases/latest/download/docker-buildx-linux-amd64
+  517  chmod +x ~/.docker/cli-plugins/docker-buildx
+  518  mkdir -p ~/.docker/cli-plugins
+  519  wget -O ~/.docker/cli-plugins/docker-buildx   https://github.com/docker/buildx/releases/download/v0.13.1/docker-buildx-linux-amd64
+  520  chmod +x ~/.docker/cli-plugins/docker-buildx
+  521  mkdir -p ~/.docker/cli-plugins
+  522  wget -O ~/.docker/cli-plugins/docker-buildx   https://github.com/docker/buildx/releases/download/v0.11.2/buildx-v0.11.2.linux-amd64
+  523  chmod +x ~/.docker/cli-plugins/docker-buildx
+  524  ls -lh ~/.docker/cli-plugins/docker-buildx
+  525  # ✅ File size should be ~14M
+  526  docker buildx version
+  527  # ✅ Output: github.com/docker/buildx v0.11.2
+  528  docker buildx build -t suvaatnbu/gateway-service:latest .
+  529  docker push suvaatnbu/gateway-service:latest
+  530  docker buildx build -t suvaatnbu/gateway-service:latest .
+  531  cd /mnt/d/TCS/SKILL-TEST2/gateway-service
+  532  ls
+  533  mkdir gateway-service
+  534  cd gateway-service
+  535  nano package.json
+  536  nano index.js
+  537  nano Dockerfile
+  538  cd gateway-service
+  539  docker buildx build -t suvaatnbu/gateway-service:latest .
+  540  docker push suvaatnbu/gateway-service:latest
+  541  docker buildx build -t suvaatnbu/gateway-service:latest .
+  542  docker push suvaatnbu/gateway-service:latest
+  543  docker info | grep Username
+  544  docker login
+  545  docker info | grep Username
+  546  docker push suvaatnbu/gateway-service:latest
+  547  image: suvaatnbu/gateway-service:latest
+  548  cd ..
+  549  image: suvaatnbu/gateway-service:latest
+  550  kubectl apply -f gateway-deployment.yaml
+  551  kubectl get pods
+  552  kubectl get services
+  553  kubectl port-forward service/gateway-service 3003:3003
+  554  kubectl get pods -l app=gateway
+  555  kubectl describe pod $(kubectl get pods -l app=gateway -o name)
+  556  kubectl get pods -l app=gateway -o name
+  557  kubectl describe pod gateway-deployment-78646845f8-k6m55
+  558  nano gateway-deployment.yaml
+  559  kubectl apply -f gateway-deployment.yaml
+  560  kubectl get pods
+  561  kubectl describe pod <your-updated-gateway-pod-name>
+  562  kubectl get pods -l app=gateway
+  563  kubectl port-forward service/gateway-service 3003:3003
+  564  docker buildx build -t suvaatnbu/gateway-service:latest .
+  565  docker push suvaatnbu/gateway-service:latest
+  566  kubectl rollout restart deployment gateway-deployment
+  567  curl http://localhost:3003/user
+  568  kubectl port-forward service/gateway-service 3003:3003
+  569  kubectl apply -f gateway-service.yaml
+  570  kubectl port-forward service/gateway-service 3003:3003
+  571  # Microservices Kubernetes Deployment
+  572  ## 🚀 Minikube Setup
+  573  ```bash
+  574  minikube start
+  575  
+  576  history suvalinux.txt
+  577  history
+  578  history > my_history.txt
+  579  git init
+  580  git add .
+  581  git remote add origin https://github.com/suvaatnbu/SKILL-TEST2.git
+  582  git push -u origin master
+  583  git push -u origin main
+  584  git commit -m "Initial commit"
+  585  git remote add origin https://github.com/suvaatnbu/SKILL-TEST2.git
+  586  git push -u origin master
+  587  git push -u origin main
+  588  git push -u origin master
+  589  exit
+  590  ls /mnt/d
+  591  cd /mnt/d
+  592  cd TCS
+  593  cd SKILL-TEST2
+  594  curl http://localhost:3003/user
+  595  kubectl get pods -l app=gateway
+  596  kubectl get svc gateway-service -o yaml
+  597  kubectl run -it --rm curlpod --image=radial/busyboxplus:curl
+  598  kubectl apply -f user-deployment.yaml
+  599  kubectl apply -f user-service.yaml
+  600  # Repeat for all
+  601  #### 📸 Screenshots Required
+  602  - `kubectl get pods`
+  603  - Logs showing communication (e.g., `kubectl logs gateway-service-xxxx`)
+  604  - `curl` results from port-forward test
+  605  ---
+  606  If you'd like, I can generate the full YAML manifests and README file for you. Would you like that?
+  607  Y
+  608  
+  609  exit
+  610  ls /mnt/d
+  611  cd /mnt/d
+  612  cd TCS
+  613  cd SKILL-TEST2
+  614  sudo systemctl start docker
+  615  sudo systemctl enable docker
+  616  git init
+  617  git add .
+  618  git commit -m Initial commit:
+  619  git commit -m Initial commit
+  620  git commit -m "Initial commit"
+  621  git remote add origin https://github.com/suvaatnbu/SKILL-TEST2.git
+  622  git push -u origin master
+  623  git pull origin master --rebase
+  624  git push -u origin master
+  625  git push -u origin master --force
+  626  ls /mnt/d
+  627  cd /mnt/d
+  628  cd TCS
+  629  cd SKILL-TEST2
+  630  kubectl get pods
+  631  minikube status
+  632  minikube start
+  633  kubectl get pods
+  634  kubectl get services
+  635  kubectl logs deployment/gateway-deployment
+  636  kubectl port-forward service/gateway-service 3003:3003
+  637  minikube start
+  638  kubectl port-forward service/gateway-service 3003:3003
+  639  ls /mnt/d
+  640  cd /mnt/d
+  641  cd TCS
+  642  cd SKILL-TEST2
+  643  curl http://localhost:3003/user
+  644  kubectl get pods
+  645  kubectl logs <gateway-pod-name>
+  646  kubectl logs gateway-deployment-bf56c789c-h9f7n
+  647  kubectl get pods
+  648  kubectl get svc
+  649  sudo systemctl start docker
+  650  kubectl get pods
+  651  kubectl logs gateway-deployment-bf56c789c-h9f7n
+  652  kubectl get svc
+  653  kubectl logs gateway-deployment-bf56c789c-h9f7n
+  654  docker push suvaatnbu/gateway-service:latest
+  655  ls /mnt/d
+  656  cd /mnt/d
+  657  cd TCS
+  658  cd SKILL-TEST2
+  659  docker buildx build -t suvaatnbu/gateway-service:latest .
+  660  cd gateway-service
+  661  docker buildx build -t suvaatnbu/gateway-service:latest .
+  662  minikube start
+  663  kubectl apply -f user-deployment.yaml
+  664  kubectl apply -f user-service.yaml
+  665  # Repeat for product, order, gateway
+  666  cd ..
+  667  kubectl apply -f user-deployment.yaml
+  668  kubectl get pods
+  669  kubectl get services
+  670  kubectl logs user-deployment-5f48759ccb-4dc2c
+  671  kubectl get deployment user-deployment -o yaml | grep image
+  672  image: suvaatnbu/user-service:latest
+  673  kubectl apply -f user-deployment.yaml
+  674  kubectl get deployment user-deployment -o yaml | grep image
+  675  kubectl logs user-deployment-5f48759ccb-4dc2c
+  676  kubectl apply -f user-deployment.yaml
+  677  kubectl get pods
+  678  kubectl get services
+  679  kubectl logs user-deployment-5f48759ccb-4dc2c
+  680  eval $(minikube docker-env)
+  681  docker build -t user-service:latest .
+  682  cd gateway-service
+  683  docker build -t user-service:latest .
+  684  kubectl apply -f user-deployment.yaml
+  685  cd ..
+  686  kubectl apply -f user-deployment.yaml
+  687  kubectl delete pod -l app=user
+  688  kubectl get pods
+  689  kubectl logs <new-pod-name>
+  690  kubectl logs user-service-b65bfcc47-fjtw7
+  691  kubectl logs user-deployment-5f48759ccb-c4vjw
+  692  kubectl get pods
+  693  docker build -t user-service:latest .
+  694  kubectl apply -f user-deployment.yaml
+  695  kubectl get pods
+  696  kubectl logs user-service-b65bfcc47-fjtw7
+  697  docker build -t user-service:latest .
+  698  kubectl logs user-deployment-5f48759ccb-c4vjw
+  699  cd gateway-service
+  700  kubectl logs user-deployment-5f48759ccb-c4vjw
+  701  cd ..
+  702  docker build -t user-service:latest .
+  703  kubectl logs user-deployment-5f48759ccb-c4vjw
+  704  kubectl apply -f user-deployment.yaml
+  705  kubectl logs user-deployment-5f48759ccb-c4vjw
+  706  cd user-service
+  707  nano Dockerfile
+  708  nano index.js
+  709  nano package.json
+  710  npm install
+  711  sudo apt install npm
+  712  cd ..
+  713  nano index.js
+  714  cd product-service
+  715  nano index.js
+  716  nano package.json
+  717  cd ..
+  718  cd order-service
+  719  nano index.js
+  720  nano package.json
+  721  sudo apt install npm
+  722  cd ..
+  723  cd product-service
+  724  sudo apt install npm
+  725  node index.js
+  726  npm init -y
+  727  npm install express
+  728  cd ..
+  729  cd user-service
+  730  sudo apt install npm
+  731  cd ..
+  732  cd user-service
+  733  npm start
+  734  cd ..
+  735  cd product-service
+  736  npm start
+  737  cd ..
+  738  cd order-services
+  739  cd order-service
+  740  npm start
+  741  kubectl apply -f user-deployment.yaml
+  742  kubectl delete pod -l app=user
+  743  cd ..
+  744  kubectl apply -f user-deployment.yaml
+  745  kubectl delete pod -l app=user
+  746  kubectl get pods
+  747  kubectl logs user-service-fdbb9cf94-tfcjk
+  748  docker build -t user-service:latest .
+  749  docker images
+  750  # Forward local port 3000 to user-service running on port 3000
+  751  kubectl port-forward service/user-service 3000:3000
+  752  # In a new terminal/tab:
+  753  curl http://localhost:3000/health
+  754  curl http://localhost:3000/user
+  755  kubectl exec -it <user-pod-name> -- sh
+  756  ps aux
+  757  kubectl delete pod -l app=user
+  758  kubectl get pods
+  759  kubectl port-forward service/user-service 3000:3000
+  760  kubectl describe pod -l app=user
+  761  # Point Docker to Minikube
+  762  eval $(minikube docker-env)
+  763  # Navigate to user-service directory with Dockerfile
+  764  cd /mnt/d/TCS/SKILL-TEST2/user-service
+  765  # Build the image
+  766  docker build -t user-service:latest .
+  767  docker images | grep user-service
+  768  kubectl apply -f user-deployment.yaml
+  769  cd ..
+  770  kubectl apply -f user-deployment.yaml
+  771  kubectl delete pod -l app=user
+  772  kubectl get pods
+  773  kubectl delete deployment user-deployment
+  774  kubectl port-forward service/user-service 3000:3000
+  775  git init
+  776  git add .
+  777  git commit -m "Initial commit"
+  778  git remote add origin https://github.com/suvaatnbu/SKILL-TEST2.git
+  779  git pull origin master --rebase
+  780  git push -u origin master
+  781  git push -u origin master --force
+  782  git init
+  783  git add .
+  784  git commit -m "Initial commit"
+  785  git remote add origin https://github.com/suvaatnbu/SKILL-TEST2.git
+  786  git pull origin master --rebase
+  787  git remote add origin https://github.com/suvaatnbu/SKILL-TEST2.git
+  788  git push -u origin master
+  789  git push -u origin master --force
+  790  git pull origin master --rebase
+  791  git push -u origin master --force
+  792  git push -u origin master
+  793  exit
+  794  it init
+  795  git add .
+  796  git init
+  797  git add .
+  798  git commit -m "Initial commit"
+  799  git remote add origin https://github.com/suvaatnbu/Orchestration-Scaling.git
+  800  git pull origin master --rebase
+  801  git push -u origin master --force
+  802  git lfs install
+  803  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+  804  git lfs install
+  805  git push -u origin master --force
+  806  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+  807  sudo apt update
+  808  git lfs install
+  809  wget https://github.com/git-lfs/git-lfs/releases/download/v3.5.1/git-lfs-linux-amd64-v3.5.1.tar.gz
+  810  tar -xvzf git-lfs-linux-amd64-v3.5.1.tar.gz
+  811  cd git-lfs-3.5.1
+  812  sudo ./install.sh
+  813  git lfs version
+  814  git lfs install
+  815  git lfs update --force
+  816  cd ..
+  817  git push -u origin master --force
+  818  git rm --cached path/to/VirtualBox-7.1.10-169112-Win.exe
+  819  rm -f .git/index.lock
+  820  git rm --cached path/to/VirtualBox-7.1.10-169112-Win.exe
+  821  git status
+  822  Untracked files:
+  823  git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize:storage)' | grep blob | sort -k3 -n -r | head -10
+  824  git rev-list --objects --all | git cat-file --batch-check | grep blob | sort -k3 -n -r | head -10
+  825  git rev-list --objects --all | git cat-file --batch-check | grep blob | awk '{print $3, $1, $2}' | sort -n -r | head -10
+  826  git push -u origin master --force
+  827  wget https://repo1.maven.org/maven2/com/madgag/bfg/1.14.0/bfg-1.14.0.jar -O bfg.jar
+  828  sudo apt install default-jre
+  829  cd ..
+  830  cp -r Orchestration-Scaling Orchestration-Scaling-backup
+  831  cd Orchestration-Scaling
+  832  java -jar bfg.jar --delete-files VirtualBox-7.1.10-169112-Win.exe
+  833  git reflog expire --expire=now --all
+  834  git gc --prune=now --aggressive
+  835  git push --force
+  836  kubectl apply -f backend-deployment.yaml
+  837  kubectl apply -f frontend-deployment.yaml
+  838  minikube status
+  839  minikube start
+  840  minikube status
+  841  kubectl config current-context
+  842  kubectl cluster-info
+  843  kubectl version --short
+  844  kubectl apply -f backend-deployment.yaml --validate=false
+  845  kubectl apply -f frontend-deployment.yaml --validate=false
+  846  kubectl version --short
+  847  kubectl apply -f backend-deployment.yaml --validate=false
+  848  kubectl apply -f frontend-deployment.yaml --validate=false
+  849  kubectl get nodes
+  850  kubectl version --short
+  851  kubectl version
+  852  kubectl get deployments
+  853  kubectl get pods
+  854  kubectl get services
+  855  nano boto3.py
+  856  nano boto.py
+  857  sudo apt update
+  858  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  859  sudo yum install docker -y          # Amazon Linux
+  860  sudo systemctl start docker
+  861  sudo systemctl status jenkins
+  862  sudo systemctl start jenkins
+  863  sudo systemctl enable jenkins
+  864  sudo systemctl start jenkins
+  865  sudo systemctl status jenkins
+  866  nano pipeline {
+  867  nano jenkins22.groovy
+  868  nano deploy_backend_asg.py
+  869  docker tag backend:latest yourdockerhubusername/backend:latest
+  870  docker tag backend:latest suvaatnbu/backend:latest
+  871  docker build -t suvaatnbu/frontend:latest /path/to/frontend
+  872  docker push suvaatnbu/frontend:latest
+  873  docker build -t suvaatnbu/backend:latest /path/to/backend
+  874  docker push suvaatnbu/backend:latest
+  875  docker build -t suvaatnbu/auth-service:latest /path/to/auth-service
+  876  docker push suvaatnbu/auth-service:latest
+  877  cd backend
+  878  docker build -t suvaatnbu/backend:latest .
+  879  cd ..
+  880  cd frontend
+  881  docker build -t suvaatnbu/frontend:latest .
+  882  cd ..
+  883  cd auth-service
+  884  docker build -t suvaatnbu/auth-service:latest .
+  885  cd ..
+  886  docker push suvaatnbu/backend:latest
+  887  docker push suvaatnbu/auth-service:latest
+  888  docker push suvaatnbu/frontend:latest
+  889  docker login
+  890  docker push suvaatnbu/frontend:latest
+  891  docker push suvaatnbu/backend:latest
+  892  docker push suvaatnbu/auth-service:latest
+  893  nano backend_asg.py
+  894  nano teardown_backend_asg.py
+  895  python3 deploy_backend_asg.py
+  896  python3 teardown_backend_asg.py
+  897  pip3 install boto3
+  898  python3 deploy_backend_asg.py
+  899  pip3 install boto3
+  900  pip install boto3
+  901  sudo apt update
+  902  python3 deploy_backend_asg.py
+  903  pip install boto3
+  904  python3 deploy_backend_asg.py
+  905  python3 --version
+  906  pip3 install boto3
+  907  sudo apt install boto3
+  908  sudo apt update
+  909  pip3 install boto3
+  910  python3 -m venv myenv
+  911  source myenv/bin/activate
+  912  pip install boto3
+  913  python3 deploy_backend_asg.py
+  914  aws configuration
+  915  aws configure
+  916  python3 deploy_backend_asg.py
+  917  exit
+  918  scp -i D:\TCS\Orchestration-Scaling\backend\jenkins22.pem -r D:\TCS\Orchestration-Scaling\backend ubuntu@13.126.196.234:~/backend
+  919  scp -i D:/TCS/Orchestration-Scaling/backend/jenkins22.pem -r D:/TCS/Orchestration-Scaling/backend ubuntu@13.126.196.234:~/backend
+  920  exit
+  921  sudo systemctl start jenkins
+  922  docker run -d -p 8080:8080 -p 50000:50000 --name jenkins   -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+  923  sudo apt update
+  924  sudo systemctl start docker
+  925  docker run -d -p 8080:8080 -p 50000:50000 --name jenkins   -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts
+  926  nano create_vpc_resources.py
+  927  nano create_lambda.py
+  928  #!/bin/bash
+  929  sudo apt update -y
+  930  nano create_asg.py
+  931  sudo apt update -y
+  932  sudo apt install -y docker.io
+  933  sudo systemctl start docker
+  934  sudo systemctl enable docker
+  935  docker pull suvaatnbu/backend-service:latest
+  936  docker build -t suvaatnbu/backend-service:latest .
+  937  cd backend
+  938  docker build -t suvaatnbu/backend-service:latest .
+  939  docker login
+  940  docker push suvaatnbu/backend-service:latest
+  941  docker buildx version
+  942  mkdir -p ~/.docker/cli-plugins
+  943  curl -SL https://github.com/docker/buildx/releases/latest/download/docker-buildx-linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+  944  chmod +x ~/.docker/cli-plugins/docker-buildx
+  945  docker buildx version
+  946  mkdir -p ~/.docker/cli-plugins
+  947  curl -L https://github.com/docker/buildx/releases/download/v0.14.0/docker-buildx-linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+  948  chmod +x ~/.docker/cli-plugins/docker-buildx
+  949  docker buildx version
+  950  cd ..
+  951  mkdir -p ~/.docker/cli-plugins
+  952  curl -L https://github.com/docker/buildx/releases/download/v0.14.0/docker-buildx-linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+  953  ls -lh ~/.docker/cli-plugins/docker-buildx
+  954  chmod +x ~/.docker/cli-plugins/docker-buildx
+  955  sudo systemctl restart docker
+  956  docker buildx version
+  957  DOCKER_BUILDKIT=0 docker build -t suvaatnbu/backend-service:latest .
+  958  docker --version
+  959  ls -lh /usr/libexec/docker/cli-plugins/
+  960  /usr/libexec/docker/cli-plugins/docker-buildx version
+  961  sudo apt remove docker docker.io containerd runc docker-compose-plugin
+  962  which docker
+  963  ls -lh /usr/libexec/docker/cli-plugins/
+  964  cd backend
+  965  docker pull suvaatnbu/backend-service:latest
+  966  #!/bin/bash
+  967  sudo apt-get update -y
+  968  sudo apt-get install -y docker.io
+  969  sudo systemctl start docker
+  970  sudo docker run -d -p 3000:3000 suvaatnbu/backend-service:latest
+  971  ssh -i jenkins22.pem ec2-user@13.126.196.234
+  972  cd ..
+  973  ssh -i jenkins22.pem ec2-user@13.126.196.234
+  974  chmod 400 jenkins22.pem
+  975  ssh -i jenkins22.pem ec2-user@13.126.196.234
+  976  chmod 400 jenkins22.pem
+  977  ls -l jenkins22.pem
+  978  chmod 400 jenkins22.pem
+  979  ls -l jenkins22.pem
+  980  ssh -i jenkins22.pem ec2-user@13.126.196.234
+  981  mkdir -p ~/aws-keys
+  982  cp /mnt/d/TCS/Orchestration-Scaling/jenkins22.pem ~/aws-keys/
+  983  chmod 400 ~/aws-keys/jenkins22.pem
+  984  ls -l ~/aws-keys/jenkins22.pem
+  985  ssh -i ~/aws-keys/jenkins22.pem ec2-user@13.126.196.234
+  986  ssh -i ~/aws-keys/jenkins22.pem ubuntu@13.126.196.234
+  987  it init
+  988  git add .
+  989  git push -u origin master --force
+  990  # Install Git LFS
+  991  git lfs install
+  992  # Track specific file types (example: *.zip)
+  993  git lfs track "*.zip"
+  994  # Add files as usual
+  995  git add . 
+  996  git commit -m "Add large files with LFS"
+  997  git push
+  998  git push -u origin master --force
+  999  exit
+ 1000  aws configure
+ 1001  pip install boto3
+ 1002  # Install venv module if not already installed
+ 1003  sudo apt install python3-venv -y
+ 1004  python3 -m venv venv-boto3
+ 1005  source venv-boto3/bin/activate
+ 1006  pip install boto3
+ 1007  nano boto3.py
+ 1008  docker run -d   --name jenkins   -p 8080:8080 -p 50000:50000   -v jenkins_home:/var/jenkins_home   jenkins/jenkins:lts
+ 1009  docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+ 1010  sudo systemctl start jenkins
+ 1011  sudo systemctl status jenkins
+ 1012  apt-get update
+ 1013  apt-get install -y python3 python3-pip
+ 1014  nano dockerfile
+ 1015  docker build -t custom-jenkins-boto3 .
+ 1016  sudo systemctl start jenkins
+ 1017  sudo systemctl enable jenkins
+ 1018  sudo systemctl status jenkins
+ 1019  sudo apt update
+ 1020  which python3
+ 1021  python3 --version
+ 1022  python3 -c "import boto3; print(boto3.__version__)"
+ 1023  sudo apt update
+ 1024  sudo apt install -y python3 python3-pip
+ 1025  sudo pip3 install boto3
+ 1026  python3 --version
+ 1027  python3 -c "import boto3; print(boto3.__version__)"
+ 1028  mkdir -p ~/jenkins-boto3-scripts
+ 1029  cd ~/jenkins-boto3-scripts
+ 1030  nano vpc.py
+ 1031  sudo mkdir -p /var/lib/jenkins/jenkins-boto3-scripts
+ 1032  nano boto3.py
+ 1033  sudo chown -R jenkins:jenkins /var/lib/jenkins/jenkins-boto3-scripts
+ 1034  nano pipeline.groovy
+ 1035  sudo mkdir -p /var/lib/jenkins/jenkins-boto3-scripts
+ 1036  sudo cp ~/Downloads/jenkins-boto3-scripts-bundle/*.py /var/lib/jenkins/jenkins-boto3-scripts/
+ 1037  ls ~/Downloads | grep jenkins
+ 1038  sudo cp *.py /var/lib/jenkins/jenkins-boto3-scripts/
+ 1039  sudo chown -R jenkins:jenkins /var/lib/jenkins/jenkins-boto3-scripts
+ 1040  ls -l /var/lib/jenkins/jenkins-boto3-scripts/
+ 1041  sudo rm /var/lib/jenkins/jenkins-boto3-scripts/boto3.py
+ 1042  sudo rm -f /var/lib/jenkins/jenkins-boto3-scripts/boto3.py
+ 1043  sudo rm -rf /var/lib/jenkins/workspace/Jenkins22/*
+ 1044  ls -l /var/lib/jenkins/jenkins-boto3-scripts/
+ 1045  sudo apt install python3-boto3
+ 1046  history ->jenkinslinuxcommand.txt
+ 1047  history >jenkinslinuxcommand.txt
+ 1048  ls
+ 1049  pipeline {
+ 1050  }
+ 1051  history >jenkinslinuxcommand.txt
